@@ -19,4 +19,9 @@ int main(){
   c.next=&d;
   cout<<(a.next)->val<<endl;
   cout<<(b.next)->val<<endl;
+  Node* temp=&a;
+  while(temp!=nullptr){
+    cout<<temp->val<<" ";
+    temp=temp->next;
+  }
 }
