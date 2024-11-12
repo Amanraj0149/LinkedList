@@ -13,5 +13,5 @@ Node* prev=nullptr;
     }
   }
   curr=prev->next;
- return curr;
+ return head;
 }
